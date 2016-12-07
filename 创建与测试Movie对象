@@ -1,10 +1,14 @@
 
+
 class Movie {
 	String title;
 	String genre;
 	int rating;
 	
-	void playit(){System.out.println("PLAYING THE MOVIE");
+	void playit(){System.out.println("Playing the Movie with details: "
+			+ "\n" +"title: " +this.title
+			+ "\n" +"genere: " +this.genre
+			+ "\n" +"rating: " +this.rating);
 	}
 	}
 public class MovieTestDrive{
@@ -23,5 +27,9 @@ public class MovieTestDrive{
 	three.genre="Tragic but ultimately uplifting";
 	three.rating=127;
 		// TODO Auto-generated method stub
+one.playit();
+two.playit();
+three.playit();
 
 	}}
+
